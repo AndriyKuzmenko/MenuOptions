@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/redMenu"
+        android:title="Red"
+        android:orderInCategory="100"/>
 
+    <item
+        android:id="@+id/greenMenu"
+        android:title="Green"
+        android:orderInCategory="200"/>
+
+    <item
+        android:id="@+id/blueMenu"
+        android:title="Blue"
+        android:orderInCategory="300"/>
+
+    <item
+        android:id="@+id/yellowMenu"
+        android:title="Yellow"
+        android:orderInCategory="400"/>
 </menu>
