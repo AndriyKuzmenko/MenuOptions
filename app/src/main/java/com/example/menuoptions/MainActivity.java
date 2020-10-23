@@ -56,4 +56,12 @@ public class MainActivity extends AppCompatActivity
         Intent si=new Intent(this, Activity2.class);
         startActivity(si);
     }
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+
+        finish();
+    }
 }
