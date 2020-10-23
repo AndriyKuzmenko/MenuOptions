@@ -2,6 +2,7 @@ package com.example.menuoptions;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity
 
     public void buttonPressed(View view)
     {
-
+        Intent si=new Intent(this, Activity2.class);
+        startActivity(si);
     }
 }
